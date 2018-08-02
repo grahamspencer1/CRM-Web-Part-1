@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CONTACTS</title>
+  </head>
+  <body>
+    <h1>Contacts</h1>
+    <section id="contact-section" class="contacts">
+      <% @contacts.each do |contact| %>
+        <ul>
+          <li><%= contact.full_name %></li>
+          <li><%= contact.email %></li>
+          <li><%= contact.note %></li>
+        </ul>
+      <% end %>
+    </section>
+    <a href="/">Click here to go back home</a>
+  </body>
+</html>

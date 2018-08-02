@@ -11,6 +11,14 @@ header h1 {
   margin: auto;
 }
 
+main h2 {
+  background-color: rgba(255, 0, 0, 0.5);
+  font-family: Helvetica;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 20px;
+}
+
 h2 {
   font-family: Verdana;
   font-size: 20px;
@@ -24,6 +32,15 @@ p {
 ul {
   padding: 0;
   list-style-type: none;
+}
+
+ul.people {
+  background-color: rgba(50, 200, 200, 1);
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px;
+  margin: 10px 20px;
 }
 
 header li {

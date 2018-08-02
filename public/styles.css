@@ -52,6 +52,11 @@ header li {
   max-width: 100%;
 }
 
+li.modify {
+  font-size: 10px;
+  display: inline-block;
+}
+
 header a {
   color: white;
   text-decoration: none;

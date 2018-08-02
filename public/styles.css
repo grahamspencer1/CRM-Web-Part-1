@@ -1,0 +1,19 @@
+h1 {
+  color: white;
+  background-color: rgba(20, 20, 20, 0.8);
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}

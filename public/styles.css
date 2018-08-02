@@ -19,6 +19,14 @@ main h2 {
   margin: 10px 20px;
 }
 
+h1 {
+  font-family: Arial;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(100, 100, 100, 1);
+  padding: 15px 10px;
+}
+
 h2 {
   font-family: Verdana;
   font-size: 20px;
@@ -41,6 +49,14 @@ ul.people {
   font-size: 16px;
   padding: 20px;
   margin: 10px 20px;
+}
+
+ul.details {
+  background-color: gold;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
 }
 
 header li {

@@ -4,6 +4,7 @@
   <li>Name: <%= @contact.full_name %></li>
   <li>Email: <%= @contact.email %></li>
   <li>Role: <%= @contact.note %></li>
+  <li><a href="/contacts/<%= @contact.id %>/edit">Edit</a></li>
 </ul>
 
 <form action='/contacts/<%= @contact.id %>' method='post'>

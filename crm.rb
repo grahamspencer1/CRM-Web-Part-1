@@ -58,7 +58,7 @@ post "/contacts" do
 end
 
 delete '/contacts/:id' do
-  @contact = Contact.find_by(params[:id].to_i)
+  @contact = Contact.find_by(id: params[:id].to_i)
   if @contact
     @contact.delete
     redirect to('/contacts')
